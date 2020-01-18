@@ -55,6 +55,7 @@ body {
 nav {
     background-color: #1e1e1e;
     color: #ffffff;
+    padding: 0.39rem;
 }
 
 .flex-nav {
