@@ -19,35 +19,70 @@ body {
     margin-left: auto;
 }
 
+.align-col {
+    align-items: center;
+}
+
+.spacy-x {
+    padding: 0 3rem;
+}
+
+.spacy-y {
+    padding: 3rem 0;
+}
+
 nav {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 
-nav .flex-nav {
+.flex-nav {
     display: flex;
     justify-content: space-between;
 }
 
-nav ul {
+nav ul,
+header ul {
     display: flex;
     padding: 0;
 }
 
 nav ul.contact-info li span,
-nav ul.social li {
+nav ul.social li,
+header ul.join li {
     padding: 0 1rem;
     text-transform: capitalize;
 }
 
 nav ul.contact-info li,
-nav ul.social li {
+nav ul.social li,
+header ul.join li {
     list-style-type: none;
 }
 
-nav ul.social li:last-of-type {
+nav ul.social li:last-of-type,
+header ul.join li:last-of-type  {
     padding-right: 0;
 }
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header li#login a {
+    color: blue;
+}
+
+header li#register a {
+    color: yellow;
+}
+
 
 /* Responsive layouts */ 
 
