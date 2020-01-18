@@ -43,6 +43,15 @@ body {
     padding: 3rem 0;
 }
 
+.custom-shadow {
+    box-shadow:
+        0 3.3px 2.7px rgba(0, 0, 0, -0.006),
+        0 7.6px 6.9px rgba(0, 0, 0, -0.001),
+        0 13.6px 14.2px rgba(0, 0, 0, 0.012),
+        0 23.5px 29.2px rgba(0, 0, 0, 0.034),
+        0 47px 80px rgba(0, 0, 0, 0.08);
+}
+
 nav {
     background-color: #1e1e1e;
     color: #ffffff;
