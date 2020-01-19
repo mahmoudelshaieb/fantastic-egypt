@@ -123,6 +123,9 @@ nav .social li:hover i {
     cursor: pointer;
 }
 
+main {
+    padding-top: 5rem;
+}
 
 .grid {
     display: grid;
