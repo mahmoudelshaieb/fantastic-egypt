@@ -33,7 +33,7 @@ body {
 }
 
 .align-col {
-    align-items: center;
+    align-items: baseline;
 }
 
 .spacy-x {
